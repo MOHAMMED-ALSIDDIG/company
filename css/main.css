@@ -206,6 +206,15 @@ color: var(--color3);
         background-image: url('../img/desk3.png');
     }
 }
+``@media (max-width:550px) {
+    .home {
+    top: -15.2vh;
+}
+    
+    .text-content {
+    display: none;
+    }
+}
 
 /* end home */
 
